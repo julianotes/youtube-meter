@@ -1,0 +1,25 @@
+{
+  "name": "youtube-meter",
+  "version": "1.0.0",
+  "description": "Счетчик подписчиков на YouTube",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel src/js -d assets/js --presets es2015 -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianotes/youtube-meter.git"
+  },
+  "keywords": [],
+  "author": "julianotes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianotes/youtube-meter/issues"
+  },
+  "homepage": "https://github.com/julianotes/youtube-meter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
